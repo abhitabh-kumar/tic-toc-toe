@@ -21,7 +21,6 @@ app.post("/signup", async (req, res) => {
     const userId = uuidv4();
     const hashedPassword = password;
     const token = serverClient.createToken(userId);
-    console.log(token)
     res.json({ 
       token, 
       userId, 
@@ -44,7 +43,6 @@ app.post("/login", async (req, res) => {
 
     const token = serverClient.createToken(users[0].id);
     const passwordMatch = password==users[0].hashedPassword;
-      console.log(users);
     if (passwordMatch) {
       res.json({
         token,
