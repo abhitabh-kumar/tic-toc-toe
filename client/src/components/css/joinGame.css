@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+.staterGame{
+    width: 100%;
+    height: 100%;
+}
+.gameFront{
+    padding: 0px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+}
+.staterGame p{
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.staterGame h1{
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.gamebtn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.gamebtn button{
+    outline: none;
+    background-color: rgb(255, 109, 12);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    /* width: 100%; */
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.541);
+}
+.allDetails{
+    padding: 58px 20px 20px 20px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+}
+.allDetails p{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    padding: 20px 0px 10px 20px;
+    top: -26px;
+    left: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.gamebtn2{
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+.gamebtn2 button{
+    position: fixed;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+    padding: 12px 20px;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-size: 1.1rem;
+    z-index: 20;
+}
+.joinGame{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    gap: 10px;
+}
+.joinGameText{
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 100%;
+}
+.joinGame h1{
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+.joinGame p{
+    text-align: left;
+    width: 100%;
+}
+.joinGame input{
+    width: 90%;
+    height: 1.5rem;
+    padding: 15px;
+    background-color: rgb(231, 231, 231);
+    border: 0px;
+    outline: none;
+    border-radius: 4px;
+}
+.nowGameStart{
+    outline: none;
+    background-color: rgb(255, 166, 12);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    width: 250px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.453);
+    position: fixed;
+    bottom: 10px;
+    margin: 0px auto;
+    z-index: 10;
+    font-size: 1rem;
+}
