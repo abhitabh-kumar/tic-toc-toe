@@ -11,7 +11,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Welcome from './components/Welcome';
 
 function App() {
-  const api_key = process.env.process.env.API_KEY;
+  const api_key ="<your api key>";
   const cookies = new Cookies();
   const token = cookies.get("token");
   const client = StreamChat.getInstance(api_key);

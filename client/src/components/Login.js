@@ -27,7 +27,7 @@ function Login({setIsAuth}) {
       }
 
     const login=()=>{
-        Axios.post("https://tic-toc-toe-p0ls.onrender.com/login",{email,password}).then(res=>{
+        Axios.post("http://localhost:3001/login",{email,password}).then(res=>{
             if(res.status===200){
                 showAlert("Login SuccessFull !","success");
                 const {token,firstName,lastName,userName,email,userId,mess}=res.data;

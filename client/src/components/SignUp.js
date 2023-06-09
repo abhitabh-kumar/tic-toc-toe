@@ -29,7 +29,7 @@ function SignUp({ setIsAuth }) {
             showAlert("fill all field !", "danger");
         } else {
 
-            Axios.post("https://tic-toc-toe-p0ls.onrender.com/signUp", user).then(res => {
+            Axios.post("http://localhost:3001/signUp", user).then(res => {
                 if (res.status===200) {
                     showAlert("Registration SuccessFull !", "success");
                     

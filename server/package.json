@@ -5,12 +5,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "build": "echo sucess"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "node-pre-gyp": "^0.17.0",
     "nodemon": "^2.0.20",
